@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="50"
+   height="55"
+   viewBox="0 0 50 55"
+   fill="none"
+   version="1.1"
+   id="svg1250"
+   sodipodi:docname="games.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1252"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.3282828"
+     inkscape:cx="72.315053"
+     inkscape:cy="31.421237"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1250" />
+  <path
+     d="m 2.0777,14.2398 c -5e-4,8.8378 -9e-4,17.6754 -0.0014,26.5134 7.6418,4.419 15.2836,8.838 22.9253,13.257 7.6423,-4.418 15.2845,-8.837 22.9267,-13.255 0,-8.838 0,-17.6754 0,-26.5129 C 40.2865,9.8238 32.6447,5.4053 25.0029,0.9868 17.3612,5.4045 9.7194,9.8221 2.0776,14.2398 Z"
+     fill="#ffffff"
+     id="path1204" />
+  <path
+     d="M 24.6302,1.9818 2.7453,39.9372 24.2348,27.4783 24.5991,26.8466 24.6301,1.9818"
+     fill="url(#paint0_radial_126_815)"
+     id="path1206"
+     style="fill:url(#paint0_radial_126_815)" />
+  <path
+     d="M 24.9983,0.5848 23.8951,1.8671 2.2787,39.3582 1.7211,40.9592 1.7219,14.042 Z"
+     fill="url(#paint1_radial_126_815)"
+     id="path1208"
+     style="fill:url(#paint1_radial_126_815)" />
+  <path
+     d="M 47.2547,39.9392 25.3703,1.984 l 0.0305,24.8643 0.3642,0.6318 21.4897,12.4591"
+     fill="url(#paint2_radial_126_815)"
+     id="path1210"
+     style="fill:url(#paint2_radial_126_815)" />
+  <path
+     d="M 48.2788,40.9572 47.7213,39.3592 26.1044,1.869 24.9982,0.5848 48.278,14.044 Z"
+     fill="url(#paint3_radial_126_815)"
+     id="path1212"
+     style="fill:url(#paint3_radial_126_815)" />
+  <path
+     d="m 3.1134,40.5802 h 43.7693 l -21.52,-12.406 H 24.6342 L 3.1134,40.5802"
+     fill="url(#paint4_radial_126_815)"
+     id="path1214"
+     style="fill:url(#paint4_radial_126_815)" />
+  <path
+     d="m 1.7211,40.9592 1.6607,0.315 h 43.2333 l 1.6638,-0.317 -23.2806,13.458 z"
+     fill="url(#paint5_radial_126_815)"
+     id="path1216"
+     style="fill:url(#paint5_radial_126_815)" />
+  <defs
+     id="defs1248">
+    <radialGradient
+       id="paint0_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-31.0346,-5.4165595e-4,5.8722824e-4,-33.6457,24.9977,27.5019)">
+      <stop
+         stop-color="white"
+         id="stop1218" />
+      <stop
+         offset="1"
+         id="stop1220" />
+    </radialGradient>
+    <radialGradient
+       id="paint1_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-31.0346,-5.4165595e-4,5.8722824e-4,-33.6457,24.9976,27.5019)">
+      <stop
+         stop-color="white"
+         id="stop1223" />
+      <stop
+         offset="1"
+         id="stop1225" />
+    </radialGradient>
+    <radialGradient
+       id="paint2_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(15.517669,-26.911983,29.118631,16.790041,24.999,27.498)">
+      <stop
+         stop-color="white"
+         id="stop1228" />
+      <stop
+         offset="1"
+         id="stop1230" />
+    </radialGradient>
+    <radialGradient
+       id="paint3_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(15.517669,-26.911983,29.118631,16.790041,24.9989,27.498)">
+      <stop
+         stop-color="white"
+         id="stop1233" />
+      <stop
+         offset="1"
+         id="stop1235" />
+    </radialGradient>
+    <radialGradient
+       id="paint4_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(15.516964,26.912389,-29.119071,16.789278,25.0017,27.5012)">
+      <stop
+         stop-color="white"
+         id="stop1238" />
+      <stop
+         offset="1"
+         id="stop1240" />
+    </radialGradient>
+    <radialGradient
+       id="paint5_radial_126_815"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(15.516964,26.912389,-29.119071,16.789278,25.0017,27.5012)">
+      <stop
+         stop-color="white"
+         id="stop1243" />
+      <stop
+         offset="1"
+         id="stop1245" />
+    </radialGradient>
+  </defs>
+</svg>
