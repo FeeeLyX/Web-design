@@ -39,6 +39,17 @@ h1.top-bar-text
     padding-right: 0.5208vw;
     font-size: 1.875vw;
 }
+h1.footer-column-header
+{
+    padding-left: 0.5208vw;
+    padding-right: 0.5208vw;
+    font-size: 1.875vw;
+}
+h2.footer-column-text
+{
+    margin: 1.0416vw;
+    font-size: 1.25vw;
+}
 a.top-bar
 {
     display: flex;
@@ -186,33 +197,31 @@ div.card-right
 div.footer
 {
     width: 100vw;
+    height: 20.8333vw;
     display: flex;
     background-color: #333333;
 }
 div.footer-column-left
 {
-    float: left;
-    height: 400px;
-    padding-left: 240px;
+    width: 24.4792vw;
     text-align: left;
-    width: 450px;
 }
 div.footer-column-right
 {
-    float: right;
-    height: 400px;
-    padding-right: 240px;
+    width: 24.4792vw;
     text-align: right;
-    width: 450px;
 }
 div.footer-center
 {
     float: left;
-    width: 500px;
-    height: 400px;
+    width: 26.0416vw;
     text-align: center;
-
 }
+div.footer-logo
+{
+    height: 15.625vw;
+}
+
 div.icons-bar
 {
     display: flex;
@@ -220,11 +229,13 @@ div.icons-bar
 div.rickroll-icon
 {
     margin-left: auto;
-    padding: 5px;
+    padding: 0.2604vw;
+    width: 3.125vw;
 }
 div.icon
 {
-    padding: 5px;
+    padding: 0.2604vw;
+    width: 3.125vw;
 }
 div.icon:hover, div.rickroll-icon:hover
 {

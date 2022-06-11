@@ -1,0 +1,79 @@
+body
+{
+    margin: 0px;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+img.title
+{
+    width: 26.042vw;
+    box-shadow: 0 0 0 -3px #1b1b1b, 0 0 0 0px #333333C0, /* Green */
+                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333380, /* Yellow */
+                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333340; /* Orange */
+}
+img.logo
+{
+    width: 15.728vw;
+}
+img.top-bar-icon
+{
+    width: 2.6042vw;
+}
+a.top-bar
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    transform: scale(1.1, 1.1);
+    filter: drop-shadow(0px 10px 10px #1b1b1bff);
+}
+a.login-panel
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5208vw;
+}
+
+div.header
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+div.header-block-left, div.footer-column-left
+{
+    padding-left: 12.5vw;
+}
+div.header-block-right, div.footer-column-right
+{
+    padding-right: 12.5vw;
+}
+div.header-block-left
+{
+    display: flex;
+    background-color: #333333;
+    width: 26.0417vw;
+    height: 13.0208vw;
+    padding-right: 3.5938vw;
+    align-items: center;
+}
+div.header-block-center
+{
+    width: 15.728vw;
+}
+div.header-block-right
+{
+    background-color: #333333;
+    display:flex;
+    align-items: center;
+    width: 28.0729vw;
+    height: 13.0208vw;
+    padding-left: 1.5625vw;
+}
