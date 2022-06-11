@@ -135,22 +135,22 @@ div.login-panel
 
 div.content
 {
-    width: 1440px;
+    width: 75vw;
     margin-top: 40px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
 }
 div.wide-card
 {
-    width: 1440px;
-    overflow: auto;
+    width: 75vw;
+    display: flex;
     background-color: #333333;
-    margin-bottom: 20px;
+    margin-top: 1.5625vw;
+    margin-bottom: 1.5625vw;
 }
 div.wide-card-img
 {
-    float: left;
-    padding: 25px;
+    padding: 1.3291vw;
 }
 div.wide-card-text
 {
@@ -260,6 +260,30 @@ div.news-button
     float: right;
 }
 
+div.employee
+{
+    width: 100%;
+}
+div.employee-img
+{
+    padding: 1.3291vw;
+    height: 14.0625vw;
+}
+div.name
+{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div.employee-text
+{
+    padding: 1.25vw;
+    font-size: 1.25vw;
+    text-align: justify;
+}
+
 button
 {
     background-color: #00B11C;
@@ -284,7 +308,8 @@ h1.button-text
 h1.news
 {
     color: #333333;
-    padding: 25px;
+    padding: 1.3021vw;
+    font-size: 1.875vw;
     background-color: #DFDFDF;
 }
 h2.top-bar-text
