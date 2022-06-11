@@ -10,15 +10,35 @@ body
 img.title
 {
     width: 26.042vw;
+    
 }
 div.wide-card:hover, div.card:hover
 {
-    box-shadow: 0px -0.2604vw 0 -0.1563vw #1b1b1b,  0px -0.2604vw #333333C0,
-                0px -0.5208vw 0 -0.1563vw #1b1b1b,  0px -0.5208vw #33333380,
-                0px -0.7813vw 0 -0.1563vw #1b1b1b,  0px -0.7813vw #33333340,
-                0px  0.2604vw 0 -0.1563vw #1b1b1b,  0px  0.2604vw #333333C0,
-                0px  0.5208vw 0 -0.1563vw #1b1b1b,  0px  0.5208vw #33333380,
-                0px  0.7813vw 0 -0.1563vw #1b1b1b,  0px  0.7813vw #33333340;
+    box-shadow: 0vw -0.2604vw 0 -0.1563vw #1b1b1b,  0vw -0.2604vw #333333C0,
+                0vw -0.5208vw 0 -0.1563vw #1b1b1b,  0vw -0.5208vw #33333380,
+                0vw -0.7813vw 0 -0.1563vw #1b1b1b,  0vw -0.7813vw #33333340,
+                0vw  0.2604vw 0 -0.1563vw #1b1b1b,  0vw  0.2604vw #333333C0,
+                0vw  0.5208vw 0 -0.1563vw #1b1b1b,  0vw  0.5208vw #33333380,
+                0vw  0.7813vw 0 -0.1563vw #1b1b1b,  0vw  0.7813vw #33333340;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+}
+div.wide-card, div.card
+{
+    box-shadow: 0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #333333C0,
+                0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #33333380,
+                0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #33333340,
+                0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #333333C0,
+                0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #33333380,
+                0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #33333340;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
 }
 
 img.logo
@@ -54,10 +74,25 @@ a.top-bar
     text-decoration: none;
     color: white;
 }
+a
+{
+    transform: scale(1.0, 1.0);
+    filter: drop-shadow(0px 1vw 1vw #00000000);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
 a:hover
 {
     transform: scale(1.2, 1.2);
-    filter: drop-shadow(0px 1.5625vw 1.5625vw #1b1b1b);
+    filter: drop-shadow(0px 1vw 1vw #1b1b1bff);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
 }
 a.login-panel
 {
@@ -109,9 +144,6 @@ div.top-bar-text
 {
     float: left;
 }
-div.top-bar-element
-{
-}
 div.top-bar
 {
     width: 14.0364vw;
@@ -156,11 +188,22 @@ div.wide-card-text
 }
 div.goty-img
 {
-    padding: 0.7813px;
+    padding: 0.7813vw;
+    filter: drop-shadow(0px 0px 0.5vw #00000000);
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
 }
 div.goty-img:hover
 {
-    filter: drop-shadow(0px 0px 0.7813vw #A68F33);
+    filter: drop-shadow(0px 0px 0.5vw #A68F33ff);
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
 }
 div.cards
 {
@@ -231,7 +274,22 @@ div.icon
 div.icon:hover, div.rickroll-icon:hover
 {
     transform: scale(1.5, 1.5);
-    filter: drop-shadow(0px 0px 10px #1b1b1b);
+    filter: drop-shadow(0px 0px 1vw #1b1b1bff);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+div.icon, div.rickroll-icon
+{
+    transform: scale(1.0, 1.0);
+    filter: drop-shadow(0px 0px 1vw #00000000);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
 }
 
 div.news
@@ -309,12 +367,24 @@ button
     border-color: #02C721;
     border-radius: 0.5208vw;
     margin: 1.3021vw;
+    transform: scale(1.0, 1.0);
+    filter: drop-shadow(0px 1vw 1vw #00000000);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
 }
 
 button:hover
 {
     transform: scale(1.1, 1.1);
-    filter: drop-shadow(0px 1.5625vw 1.5625vw #1b1b1bff);
+    filter: drop-shadow(0px 1vw 1vw #1b1b1bff);
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
+    -ms-transition:     all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -moz-transition:    all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    transition:         all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s; 
 }
 
 h1.button-text
