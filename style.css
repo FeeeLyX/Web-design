@@ -10,18 +10,15 @@ body
 img.title
 {
     width: 26.042vw;
-    box-shadow: 0 0 0 -3px #1b1b1b, 0 0 0 0px #333333C0, /* Green */
-                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333380, /* Yellow */
-                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333340; /* Orange */
 }
-div.wide-card:hover, div.card-left:hover, div.card-right:hover
+div.wide-card:hover, div.card:hover
 {
-    box-shadow: 0px  -5px 0 -3px #1b1b1b,  0px  -5px #333333C0,
-                0px -10px 0 -3px #1b1b1b,  0px -10px #33333380,
-                0px -15px 0 -3px #1b1b1b,  0px -15px #33333340,
-                0px   5px 0 -3px #1b1b1b,  0px   5px #333333C0,
-                0px  10px 0 -3px #1b1b1b,  0px  10px #33333380,
-                0px  15px 0 -3px #1b1b1b,  0px  15px #33333340;
+    box-shadow: 0px -0.2604vw 0 -0.1563vw #1b1b1b,  0px -0.2604vw #333333C0,
+                0px -0.5208vw 0 -0.1563vw #1b1b1b,  0px -0.5208vw #33333380,
+                0px -0.7813vw 0 -0.1563vw #1b1b1b,  0px -0.7813vw #33333340,
+                0px  0.2604vw 0 -0.1563vw #1b1b1b,  0px  0.2604vw #333333C0,
+                0px  0.5208vw 0 -0.1563vw #1b1b1b,  0px  0.5208vw #33333380,
+                0px  0.7813vw 0 -0.1563vw #1b1b1b,  0px  0.7813vw #33333340;
 }
 
 img.logo
@@ -59,8 +56,8 @@ a.top-bar
 }
 a:hover
 {
-    transform: scale(1.1, 1.1);
-    filter: drop-shadow(0px 10px 10px #1b1b1bff);
+    transform: scale(1.2, 1.2);
+    filter: drop-shadow(0px 15px 15px #1b1b1b);
 }
 a.login-panel
 {
@@ -171,9 +168,22 @@ div.cards
     margin-bottom: 50px;
     margin-top: 20px;
 }
+div.cards-row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.0833vw;
+    margin-bottom: 2.0833vw;
+    height: 41.6667vw;
+}
+div.card
+{
+    width: 36.4583vw;
+    background-color: #333333;
+    text-align: center;
+}
 div.card-left
 {
-    float: left;
     margin-top:40px;
     margin-right: 20px;
     margin-bottom: 120px;
@@ -284,12 +294,41 @@ div.employee-text
     text-align: justify;
 }
 
+div.item-text
+{
+    align-items: center;
+    display: flex;
+    margin: 1.3291vw;
+    height: 15%;
+}
+div.item-name
+{
+    padding: 1.25vw;
+    width: 30%;
+    font-size: 1.25vw;
+}
+div.item-description
+{
+    padding: 1.25vw;
+    width: 60%;
+    text-align: justify;
+    font-size: 0.9375vw;
+}
+div.buy-button
+{
+    height: 10%;
+}
+button.buy
+{
+    height: 100%;
+}
+
 button
 {
     background-color: #00B11C;
     border-color: #02C721;
-    border-radius: 10px;
-    margin: 25px;
+    border-radius: 0.5208vw;
+    margin: 1.3021vw;
 }
 
 button:hover
@@ -300,10 +339,10 @@ button:hover
 
 h1.button-text
 {
-    font-size: 24px;
+    font-size: 1.25vw;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
 }
 h1.news
 {
