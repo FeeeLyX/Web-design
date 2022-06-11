@@ -10,7 +10,20 @@ body
 img.title
 {
     width: 26.042vw;
+    box-shadow: 0 0 0 -3px #1b1b1b, 0 0 0 0px #333333C0, /* Green */
+                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333380, /* Yellow */
+                0 0 0 -3px #1b1b1b, 0 0 0 0px  #33333340; /* Orange */
 }
+div.wide-card:hover, div.card-left:hover, div.card-right:hover
+{
+    box-shadow: 0px  -5px 0 -3px #1b1b1b,  0px  -5px #333333C0,
+                0px -10px 0 -3px #1b1b1b,  0px -10px #33333380,
+                0px -15px 0 -3px #1b1b1b,  0px -15px #33333340,
+                0px   5px 0 -3px #1b1b1b,  0px   5px #333333C0,
+                0px  10px 0 -3px #1b1b1b,  0px  10px #33333380,
+                0px  15px 0 -3px #1b1b1b,  0px  15px #33333340;
+}
+
 img.logo
 {
     width: 15.728vw;
@@ -36,7 +49,7 @@ a.top-bar
 a:hover
 {
     transform: scale(1.1, 1.1);
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0px 10px 10px #1b1b1bff);
 }
 a.login-panel
 {
@@ -137,6 +150,10 @@ div.goty-img
 {
     padding: 15px;
 }
+div.goty-img:hover
+{
+    filter: drop-shadow(0px 0px 10px #A68F33)
+}
 div.cards
 {
     width: 1440px;
@@ -194,7 +211,27 @@ div.footer-center
     width: 500px;
     height: 400px;
     text-align: center;
+
 }
+div.icons-bar
+{
+    display: flex;
+}
+div.rickroll-icon
+{
+    margin-left: auto;
+    padding: 5px;
+}
+div.icon
+{
+    padding: 5px;
+}
+div.icon:hover, div.rickroll-icon:hover
+{
+    transform: scale(1.5, 1.5);
+    filter: drop-shadow(0px 0px 10px #1b1b1b);
+}
+
 div.news
 {
     width: 500px;
@@ -223,7 +260,7 @@ button
 button:hover
 {
     transform: scale(1.1, 1.1);
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0px 5px 5px #1b1b1bff);
 }
 
 h1.button-text
