@@ -57,7 +57,7 @@ a.top-bar
 a:hover
 {
     transform: scale(1.2, 1.2);
-    filter: drop-shadow(0px 15px 15px #1b1b1b);
+    filter: drop-shadow(0px 1.5625vw 1.5625vw #1b1b1b);
 }
 a.login-panel
 {
@@ -133,7 +133,7 @@ div.login-panel
 div.content
 {
     width: 75vw;
-    margin-top: 40px;
+    margin-top: 2.0833vw;
     margin-left: 12.5vw;
     margin-right: 12.5vw;
 }
@@ -152,21 +152,21 @@ div.wide-card-img
 div.wide-card-text
 {
     text-align: center;
-    padding: 25px;
+    padding: 1.3021vw;
 }
 div.goty-img
 {
-    padding: 15px;
+    padding: 0.7813px;
 }
 div.goty-img:hover
 {
-    filter: drop-shadow(0px 0px 10px #A68F33)
+    filter: drop-shadow(0px 0px 0.7813vw #A68F33);
 }
 div.cards
 {
-    width: 1440px;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    width: 75vw;
+    margin-bottom: 1.5625vw;
+    margin-top: 1.5625vw;
 }
 div.cards-row
 {
@@ -179,25 +179,6 @@ div.cards-row
 div.card
 {
     width: 36.4583vw;
-    background-color: #333333;
-    text-align: center;
-}
-div.card-left
-{
-    margin-top:40px;
-    margin-right: 20px;
-    margin-bottom: 120px;
-    width: 700px;
-    background-color: #333333;
-    text-align: center;
-}
-div.card-right
-{
-    float: right;
-    margin-top:40px;
-    margin-left: 20px;
-    width: 700px;
-    margin-bottom: 40px;
     background-color: #333333;
     text-align: center;
 }
@@ -255,8 +236,8 @@ div.icon:hover, div.rickroll-icon:hover
 
 div.news
 {
-    width: 500px;
-    margin-top: 40px;
+    width: 26.0417vw;
+    margin-top: 1.5625vw;;
     overflow: auto;
     text-align: center;
 }
@@ -266,7 +247,6 @@ div.news-small-text
 }
 div.news-button
 {
-    padding-top: 15px;
     float: right;
 }
 
@@ -334,7 +314,7 @@ button
 button:hover
 {
     transform: scale(1.1, 1.1);
-    filter: drop-shadow(0px 5px 5px #1b1b1bff);
+    filter: drop-shadow(0px 1.5625vw 1.5625vw #1b1b1bff);
 }
 
 h1.button-text
