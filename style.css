@@ -86,7 +86,7 @@ a
 }
 a:hover
 {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
     filter: drop-shadow(0px 1vw 1vw #1b1b1bff);
     -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
     -o-transition:      all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;  
@@ -224,6 +224,9 @@ div.card
     width: 36.4583vw;
     background-color: #333333;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* footer */
@@ -336,18 +339,17 @@ div.item-text
 {
     align-items: center;
     display: flex;
-    margin: 1.3291vw;
+    justify-content: space-evenly;
     height: 15%;
+    min-height: 15%;
 }
 div.item-name
 {
-    padding: 1.25vw;
     width: 30%;
     font-size: 1.25vw;
 }
 div.item-description
 {
-    padding: 1.25vw;
     width: 60%;
     text-align: justify;
     font-size: 0.9375vw;
@@ -355,14 +357,18 @@ div.item-description
 div.buy-button
 {
     height: 10%;
+    padding-bottom: 1.3291vw;
+    min-height: 10%;
 }
 button.buy
 {
+    margin: 0;
     height: 100%;
 }
 
 button
 {
+    max-width: 50%;
     background-color: #00B11C;
     border-color: #02C721;
     border-radius: 0.5208vw;
