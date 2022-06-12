@@ -1,12 +1,13 @@
 @font-face
 {
-    font-family: AnimeAceV02; /* Гарнитура шрифта */
-    src: url(assets/fonts/AnimeAceV02.ttf); /* Путь к файлу со шрифтом */
+    font-family: Moyenage; /* Гарнитура шрифта */
+    src: url(assets/fonts/moyenage.ttf); /* Путь к файлу со шрифтом */
 }
 h1
 {
-    font-family: AnimeAceV02;
-    font-size: 1.25vw;
+    font-family: Moyenage;
+    font-size: 2vw;
+    font-weight: normal;
 }
 
 body
