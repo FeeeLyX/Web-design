@@ -1,3 +1,14 @@
+@font-face
+{
+    font-family: AnimeAceV02; /* Гарнитура шрифта */
+    src: url(assets/fonts/AnimeAceV02.ttf); /* Путь к файлу со шрифтом */
+}
+h1
+{
+    font-family: AnimeAceV02;
+    font-size: 1.25vw;
+}
+
 body
 {
     margin: 0px;
@@ -54,13 +65,11 @@ h1.top-bar-text
     margin: 0px;
     padding-left: 0.5208vw;
     padding-right: 0.5208vw;
-    font-size: 1.875vw;
 }
 h1.footer-column-header
 {
     padding-left: 0.5208vw;
     padding-right: 0.5208vw;
-    font-size: 1.875vw;
 }
 h2.footer-column-text
 {
@@ -394,7 +403,6 @@ button:hover
 
 h1.button-text
 {
-    font-size: 1.25vw;
     color: white;
     padding-left: 1.25vw;
     padding-right: 1.25vw;
@@ -403,7 +411,6 @@ h1.news
 {
     color: #333333;
     padding: 1.3021vw;
-    font-size: 1.875vw;
     background-color: #DFDFDF;
 }
 h2.top-bar-text
