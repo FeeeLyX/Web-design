@@ -24,7 +24,7 @@ img.title
     width: 26.042vw;
     
 }
-/* div.wide-card:hover, div.card:hover
+div.wide-card:hover, div.card:hover
 {
     box-shadow: 0vw -0.2604vw 0 -0.1563vw #1b1b1b,  0vw -0.2604vw #333333C0,
                 0vw -0.5208vw 0 -0.1563vw #1b1b1b,  0vw -0.5208vw #33333380,
@@ -37,8 +37,8 @@ img.title
     -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
     -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
     transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
-} */
-/* div.wide-card, div.card
+}
+div.wide-card, div.card
 {
     box-shadow: 0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #333333C0,
                 0vw 0vw 0 -0.1563vw #1b1b1b,  0vw 0vw #33333380,
@@ -51,7 +51,7 @@ img.title
     -ms-transition:     all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
     -moz-transition:    all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
     transition:         all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-} */
+}
 
 div.wide-card,
 div.card
@@ -59,7 +59,7 @@ div.card
 div.header-block-right */
 {
     position: relative;
-    border-radius: 6%;
+    /* border-radius: var(--radius); */
 }
 
 div.wide-card:hover::before,
