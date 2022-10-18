@@ -59,7 +59,7 @@ div.card
 div.header-block-right */
 {
     position: relative;
-    /* border-radius: var(--radius); */
+    border-radius: 0% 5%;
 }
 
 div.wide-card:hover::before,
