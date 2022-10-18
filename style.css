@@ -59,7 +59,6 @@ div.card
 div.header-block-right */
 {
     position: relative;
-    border-radius: 0% 5%;
 }
 
 div.wide-card:hover::before,
@@ -279,6 +278,7 @@ div.card
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 0% 5%;
 }
 
 /* footer */
